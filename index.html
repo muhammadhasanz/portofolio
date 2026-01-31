@@ -1,8 +1,3 @@
-<?php
-date_default_timezone_set('Asia/Makassar');
-$root = "https://" . $_SERVER['HTTP_HOST'];
-?>
-
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
@@ -10,24 +5,24 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Muhammad Hasan Z | Personal Official Website</title>
+  <title>Muhammad Hasan Z | Professional Portfolio</title>
   <meta name="author" content="Muhammad Hasan Z">
   <meta name="robots" content="all" />
   <meta name="googlebot" content="index, follow" />
-  <meta name="description" content="Muhammad Hasan Z Seorang Web & Android Developer">
-  <meta name="keywords" content="Muhammad Hasan Z, Muhammad Hasan Z kimdir" />
-  <meta property="og:site_name" content="Muhammad Hasan Z | Personal Official Website" />
-  <meta property="og:image" content="<?= $root; ?>/static/img/hasan.jpg" />
+  <meta name="description" content="Muhammad Hasan Z - Professional Web & Android Developer">
+  <meta name="keywords" content="Muhammad Hasan Z, Web Developer, Android Developer, Software Engineer" />
+  <meta property="og:site_name" content="Muhammad Hasan Z | Professional Portfolio" />
+  <meta property="og:image" content="" id="og-image" />
   <meta property="og:image:width" content="240" />
   <meta property="og:image:height" content="90" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Muhammad Hasan Z | Personal Official Website" />
-  <meta property="og:description" content="Hi, Im Hasan! Im developer Web dan Android Apps" />
-  <meta property="og:url" content="<?= $root; ?>" />
+  <meta property="og:title" content="Muhammad Hasan Z | Professional Portfolio" />
+  <meta property="og:description" content="Professional Web & Android Developer specializing in custom solutions" />
+  <meta property="og:url" content="" id="og-url" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@muhammadhasanz_" />
   <meta name="twitter:title" content="Muhammad Hasan Z" />
-  <meta name="twitter:description" content="Muhammad Hasan Z | Personal Official Website" />
+  <meta name="twitter:description" content="Muhammad Hasan Z | Professional Portfolio" />
   <link href="static/plugin/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
   <link href="static/plugin/themify-icons/themify-icons.css" rel="stylesheet">
   <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,15 +39,15 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
   <link href='custom.css' rel='stylesheet' type='text/css'>
 </head>
 
-<body class="dark-body" style="background-image: url(static/img/31367.jpg);">
+<body class="dark-body" style="background-image: url(static/img/pexels-francesco-ungaro-998641.jpg);">
   <div id="loading">
-    <div class="load"><span class="one">Memuat</span></div>
+    <div class="load"><span class="one">Loading</span></div>
   </div>
   <nav class="pages-nav">
-    <div class="pages-nav__item"><a class="link link--page" href="#home">Beranda</a></div>
-    <div class="pages-nav__item"><a class="link link--page" href="#about">Tentang Saya</a></div>
-    <!-- <div class="pages-nav__item"><a class="link link--page" href="#services">What did I do?</a></div> -->
-    <div class="pages-nav__item"><a class="link link--page" href="#contact">Kontak Saya</a></div>
+    <div class="pages-nav__item"><a class="link link--page" href="#home">Home</a></div>
+    <div class="pages-nav__item"><a class="link link--page" href="#about">About</a></div>
+    <!-- <div class="pages-nav__item"><a class="link link--page" href="#services">Services</a></div> -->
+    <div class="pages-nav__item"><a class="link link--page" href="#contact">Contact</a></div>
   </nav>
   <div class="pages-stack">
     <div class="page home-banner" id="home">
@@ -60,7 +55,7 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
         <div class="row full-screen">
           <div class="col-lg-6 black-bg">
             <div class="user-img text-center d-flex align-items-end h-100 justify-content-center">
-              <img src="static/img/hasan.jpg" title="Muhammad Hasan Z" alt="Muhammad Hasan Z">
+              <img src="static/img/IMG_5788.PNG" title="Muhammad Hasan Z" alt="Muhammad Hasan Z">
             </div>
           </div> <!-- col -->
           <div class="col-lg-6 theme-bg">
@@ -69,7 +64,7 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
               <div class="home-text">
                 <h1>Muhammad Hasan Z</h1>
                 <div class="ht-text">
-                  <h4>Seorang Freelance <span class="font-alt theme-color"><span id="type-it"></span></span></h4>
+                  <h4>Professional <span class="font-alt theme-color"><span id="type-it"></span></span></h4>
                 </div>
               </div>
             </div>
@@ -81,7 +76,7 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
       <div class="page-scroll">
         <div class="page-title" style="background-image: url(static/img/home-bg-2.jpg);">
           <div class="container">
-            <h1>Tentang Saya</h1>
+            <h1>About Me</h1>
           </div>
         </div>
         <div class="page-content">
@@ -89,22 +84,22 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
             <div class="container">
               <div class="row align-items-center">
                 <div class="col-lg-6 text-center md-m-45px-b p-50px-r md-p-15px-r">
-                  <img src="static/img/hasan.jpg" title="Muhammad Hasan Z" alt="Muhammad Hasan Z">
+                  <img src="static/img/IMG_5788.PNG" title="Muhammad Hasan Z" alt="Muhammad Hasan Z">
                 </div>
                 <div class="col-lg-6">
                   <div class="my-info">
                     <h6 class="font-alt theme-color">Muhammad Hasan Z</h6>
-                    <h1 class="dark-color">Pikirkan, rencanakan, lakukan</h1>
-                    <h5 class="dark-color"> PENGEMBANG WEB | ANDROID </h5>
-                    <p>Hi, Saya Hasan!<br><br>
+                    <h1 class="dark-color">Strategic Thinking, Meticulous Planning, Flawless Execution</h1>
+                    <h5 class="dark-color">FULL-STACK WEB DEVELOPER | MOBILE APPLICATION SPECIALIST</h5>
+                    <p>Hello, I'm Hasan – a passionate technology enthusiast and solution architect!<br><br>
 
-                      Umur <?= intval(date("Y")) - intval(date("Y", mktime(0, 0, 0, 6, 17, 2000))); ?> tahun, saya suka membuat algoritma baru untuk semuanya, mengubah dari pemikiran menjadi program.</p>
+                      At <span id="age1"></span> years old, I have dedicated my career to mastering the art of software development. I specialize in creating innovative, cutting-edge algorithms and transforming complex business requirements into robust, scalable, and maintainable applications. My expertise spans across full-stack web development and mobile application design, where I consistently deliver high-performance solutions that exceed client expectations and drive business growth.</p>
                     <div>
                       <ul>
-                        <li><span class="dark-color">TTL</span>: Makassar, 17 Juni 2000</li>
-                        <li><span class="dark-color">Umur:</span>: <?= intval(date("Y")) - intval(date("Y", mktime(0, 0, 0, 6, 17, 2000))); ?></li>
-                        <li><span class="dark-color">Lokasi</span>: Makassar, Indonesia</li>
-                        <li><span class="dark-color">E-Mail</span>: mhmmdhasanz@gmail.com</li>
+                        <li><span class="dark-color">Date of Birth</span>: June 17, 2000</li>
+                        <li><span class="dark-color">Age</span>: <span id="age2"></span></li>
+                        <li><span class="dark-color">Location</span>: Makassar, Indonesia</li>
+                        <li><span class="dark-color">Email</span>: me@keithritherus.my.id</li>
                       </ul>
                     </div>
                   </div>
@@ -117,9 +112,9 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
               <div class="row align-items-center">
                 <div class="col-lg-6">
                   <div class="aboutus-text p-80px-r md-p-0px-r md-m-40px-b">
-                    <h6 class="theme-color font-alt">Dunia pribadiku</h6>
-                    <h1 class="dark-color">Apa yang aku suka?</h1>
-                    <p>Biarkan Anda memberi tahu Anda tentang selera pribadi saya.</p>
+                    <h6 class="theme-color font-alt">Personal Philosophy & Interests</h6>
+                    <h1 class="dark-color">What Drives My Passion & Creativity</h1>
+                    <p>Beyond the realm of code and technology, I believe in maintaining a balanced lifestyle that fuels both creativity and productivity. Let me share the personal interests and activities that inspire my professional work and shape my approach to problem-solving and innovation.</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
@@ -128,10 +123,10 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
                       <div class="col-md-10">
                         <ul>
                           <li>
-                            <h5 class="dark-color"><b>Warna kesukaan:</b></h5>Jingga
+                            <h5 class="dark-color"><b>Design Aesthetic:</b></h5>Orange – A color that represents energy, creativity, and enthusiasm. This vibrant hue reflects my dynamic approach to software development and my commitment to creating engaging user experiences.
                           </li><br>
                           <li>
-                            <h5 class="dark-color"><b>Kegiatan yang Tertarik:</b></h5>Saya suka berlari, menulis kode, menghabiskan waktu bersama teman-teman saya.
+                            <h5 class="dark-color"><b>Professional & Personal Activities:</b></h5>I maintain an active lifestyle through regular running, which helps me stay focused and energized. I dedicate significant time to exploring emerging technologies and developing innovative software solutions. Additionally, I value collaborative environments and enjoy networking with fellow developers, designers, and industry professionals to exchange ideas and foster continuous growth.
                           </li>
                         </ul>
                       </div>
@@ -146,9 +141,9 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
               <div class="row align-items-center">
                 <div class="col-lg-6">
                   <div class="aboutus-text p-80px-r md-p-0px-r md-m-40px-b">
-                    <h6 class="theme-color font-alt">Bakat Saya</h6>
-                    <h1 class="dark-color">Skill Apa yang Saya Miliki?</h1>
-                    <p>Saya ingin memberi tahu berapa banyak pengalaman dan pengetahuan yang saya peroleh dalam perjalanan saya kepada Anda.</p>
+                    <h6 class="theme-color font-alt">Core Competencies</h6>
+                    <h1 class="dark-color">Technical Expertise & Skill Set</h1>
+                    <p>Throughout my professional journey, I have cultivated comprehensive expertise across a diverse range of cutting-edge technologies, programming languages, and development frameworks. My technical proficiency encompasses both frontend and backend development, database architecture, mobile application development, and modern software engineering practices. This versatile skill set enables me to deliver end-to-end solutions that are not only technically sound but also aligned with industry best practices and emerging technological trends.</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
@@ -183,7 +178,7 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
       <div class="page-scroll">
         <div class="page-title" style="background-image: url(static/img/home-bg-2.jpg);">
           <div class="container">
-            <h1>Katakan Halo padaku!</h1>
+            <h1>Get In Touch</h1>
           </div>
         </div>
         <div class="page-content">
@@ -192,8 +187,9 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
               <div class="row justify-content-center m-60px-b sm-m-25px-b">
                 <div class="col-md-10 col-lg-8">
                   <div class="section-title text-center">
-                    <h6 class="font-alt theme-color">Hubungi saya</h6>
-                    <h2 class="dark-color">Mari bekerja bersama.</h2>
+                    <h6 class="font-alt theme-color">Let's Connect</h6>
+                    <h2 class="dark-color">Ready to Bring Your Vision to Life</h2>
+                    <p style="margin-top: 15px; font-size: 16px; color: #666; line-height: 1.8;">Whether you have a project in mind, need technical consultation, or simply want to discuss potential collaboration opportunities, I'm here to help. Feel free to reach out through the form below or via the contact information provided. I typically respond within 24 hours and look forward to exploring how we can work together to achieve your goals.</p>
                   </div>
                 </div>
               </div>
@@ -201,36 +197,36 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
                 <div class="col-md-12 col-lg-4">
                   <div class="contact-info">
                     <p>
-                      <label>Alamat</label>
-                      <span class="dark-color">Mamajang, Makassar, Sulawesi Selatan.<br />Indonesia</span>
+                      <label>Address</label>
+                      <span class="dark-color">Mamajang, Makassar, South Sulawesi<br />Indonesia</span>
                     </p>
                     <p>
-                      <label>E-Mail</label>
-                      <span class="dark-color">mhmmdhasanz@gmail.com</span>
+                      <label>Email</label>
+                      <span class="dark-color">me@keithritherus.my.id</span>
                     </p>
                     <p>
-                      <label>Nomor</label>
-                      <span class="dark-color"><i>Silakan email saya untuk detailnya.</i></span>
+                      <label>Phone</label>
+                      <span class="dark-color"><i>Please email me for contact details.</i></span>
                     </p>
                   </div>
                 </div>
                 <div class="col-md-12 col-lg-8 md-m-30px-t">
                   <div class="contact-form">
-                    <form id="contact-form" method="post" action="contact.php" role="form">
+                    <form id="contact-form" role="form">
                       <div class="messages"></div>
                       <div class="controls">
                         <div class="row">
                           <div class="col-md-6">
                             <div class="form-group">
-                              <label for="form_name">Nama depan *</label>
-                              <input id="form_name" type="text" name="name" class="form-control" placeholder="Silakan masukkan nama depan Anda*" required="required" data-error="Nama depan wajib diisi.">
+                              <label for="form_name">First Name *</label>
+                              <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your first name *" required="required" data-error="First name is required.">
                               <div class="help-block with-errors"></div>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="form-group">
-                              <label for="form_lastname">Nama belakang *</label>
-                              <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Silakan masukkan nama belakang Anda *" required="required" data-error="Nama belakang wajib diisi.">
+                              <label for="form_lastname">Last Name *</label>
+                              <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Enter your last name *" required="required" data-error="Last name is required.">
                               <div class="help-block with-errors"></div>
                             </div>
                           </div>
@@ -238,21 +234,21 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
                         <div class="row">
                           <div class="col-md-6">
                             <div class="form-group">
-                              <label for="form_email">Email *</label>
-                              <input id="form_email" type="email" name="email" class="form-control" placeholder="Silakan masukkan email Anda *" required="required" data-error="Diperlukan email yang valid.">
+                              <label for="form_email">Email Address *</label>
+                              <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email address *" required="required" data-error="Valid email address is required.">
                               <div class="help-block with-errors"></div>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="form-group">
-                              <label for="form_need">Harap tentukan kebutuhan Anda *</label>
-                              <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                              <label for="form_need">Inquiry Type *</label>
+                              <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your inquiry type.">
                                 <option value=""></option>
-                                <option value="Penawaran bisnis">Penawaran bisnis</option>
-                                <option value="Permintaan produk">Permintaan produk</option>
-                                <option value="Permintaan saran">Permintaan saran</option>
-                                <option value="Keluhan">Keluhan</option>
-                                <option value="Lainnya">Lainnya</option>
+                                <option value="Business Proposal">Business Proposal</option>
+                                <option value="Product Inquiry">Product Inquiry</option>
+                                <option value="Consultation Request">Consultation Request</option>
+                                <option value="General Question">General Question</option>
+                                <option value="Other">Other</option>
                               </select>
                               <div class="help-block with-errors"></div>
                             </div>
@@ -261,19 +257,19 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
                         <div class="row">
                           <div class="col-md-12">
                             <div class="form-group">
-                              <label for="form_message">Pesan *</label>
-                              <textarea id="form_message" name="message" class="form-control" placeholder="Pesan untukku *" rows="4" required="required" data-error="Tolong, tinggalkan kami pesan."></textarea>
+                              <label for="form_message">Message *</label>
+                              <textarea id="form_message" name="message" class="form-control" placeholder="Your message *" rows="4" required="required" data-error="Please leave a message."></textarea>
                               <div class="help-block with-errors"></div>
                             </div>
                           </div>
                           <div class="col-md-12">
-                            <input type="submit" class="btn btn-success btn-send" value="Kirim Pesan">
+                            <input type="submit" class="btn btn-success btn-send" value="Send Message">
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-md-12">
                             <p class="text-muted">
-                              <strong>*</strong> Kolom ini wajib diisi.
+                              <strong>*</strong> Required fields.
                             </p>
                           </div>
                         </div>
@@ -297,7 +293,7 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
     </div>
   </div>
   <header class="header">
-    <div class="logo">N</div>
+    <div class="logo">H</div>
     <div class="menu-toggle">
       <button class="menu-button"><span>Menu</span></button>
     </div>
@@ -307,6 +303,44 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
       <li><a href="https://www.youtube.com/channel/UCyShpT5j07z1YbcYsqg1l_Q" target="_blank"><i class="fab fa-youtube"></i></a></li>
     </ul>
   </header>
+
+  <!-- Dynamic calculation JavaScript -->
+  <script>
+    // Calculate age based on birthdate
+    function calculateAge(birthYear, birthMonth, birthDay) {
+      const today = new Date();
+      const birthDate = new Date(birthYear, birthMonth - 1, birthDay);
+      let age = today.getFullYear() - birthDate.getFullYear();
+      const monthDiff = today.getMonth() - birthDate.getMonth();
+      
+      if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+      }
+      
+      return age;
+    }
+
+    // Get root URL dynamically
+    function getRootUrl() {
+      return window.location.protocol + "//" + window.location.host;
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      // Calculate age (born June 17, 2000)
+      const age = calculateAge(2000, 6, 17);
+      
+      // Update all age elements
+      document.getElementById('age1').textContent = age;
+      document.getElementById('age2').textContent = age;
+      
+      // Update meta tags with root URL
+      const rootUrl = getRootUrl();
+      document.getElementById('og-image').setAttribute('content', rootUrl + '/static/img/IMG_5788.PNG');
+      document.getElementById('og-url').setAttribute('content', rootUrl);
+    });
+  </script>
+
   <script src="static/js/jquery-3.3.1.slim.min.js"></script>
   <script src="static/plugin/bootstrap/js/popper.min.js"></script>
   <script src="static/plugin/bootstrap/js/bootstrap.min.js"></script>
@@ -323,18 +357,9 @@ $root = "https://" . $_SERVER['HTTP_HOST'];
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
-  <script src="contact.js"></script>
-  <!-- <script>
-    new TypeIt('#type-it', {
-      speed: 200,
-      loop: true,
-      strings: [
-        'Designer',
-        'Developer'
-      ],
-      breakLines: false
-    }).go();
-  </script> -->
+  
+  <!-- Contact Form Handler -->
+  <script src="static/js/contact-form.js"></script>
 </body>
 
 </html>

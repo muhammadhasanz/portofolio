@@ -1,20 +1,20 @@
 ::selection {
-  background-color: rgb(29, 103, 187);
+  background-color: rgb(204, 119, 0);
   color: #fff;
 }
 ::-moz-selection {
-  background-color: rgb(29, 103, 187);
+  background-color: rgb(204, 119, 0);
   color: #fff;
 }
 
 .theme-color {
-  color: rgb(29, 103, 187);
+  color: rgb(204, 119, 0);
 }
 
 .home-banner .social-icons a:hover,
 .btn-theme, 
 .theme-after:after,
 .theme-bg {
-  background: rgb(29, 103, 187);
+  background: rgb(204, 119, 0);
 }
 
